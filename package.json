@@ -1,5 +1,5 @@
 {
-  "name": "custom-slug",
+  "name": "@diondre27/custom-slug",
   "version": "2.1.1",
   "description": "Auto Generated rewritable Slug field (same for different locales).",
   "strapi": {
@@ -21,7 +21,7 @@
     "Anastasiia Berest (XFR | xforeal) and Chat GPT"
   ],
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=14.19.1 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT",
@@ -37,5 +37,8 @@
     "strapi",
     "slug",
     "custom fields"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
